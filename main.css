@@ -468,7 +468,7 @@ header h2 {
 
 
 #boneyard {
-	background-image: url('images/boneyard.jpg');
+	background-image: url('images/BoneYard.jpg');
 	background-size: cover;
 	border: 1px solid black;
 }
@@ -501,7 +501,7 @@ header h2 {
 }
 
 #youtube {
-	background-image: url('images/youtube.png');
+	background-image: url('images/Youtube.png');
 	background-size: cover;
 	border: 1px solid black;
 	background-position: 34% 0;
