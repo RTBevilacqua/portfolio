@@ -1,0 +1,575 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background: white;
+	margin: 0 auto;
+}
+
+main {
+	background: white;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #828282;
+}
+
+ul {
+	list-style: none; 
+ }
+
+nav {
+	text-align: center;
+	font-size: 2em;
+	font-family: raleway;
+	margin: 20px 75px;
+    display: flex;
+	justify-content: space-between;
+}
+
+h1,
+h2 {
+	margin-top: 0;
+}
+
+h1 {
+	font-family: cabin, helvetica;
+	font-size: 5em;
+	letter-spacing: 1px;
+}
+
+h2,
+li {
+	font-family: cabin, helvetica;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+/*---------------------HOME------------------------------*/
+
+
+header {
+    margin: 0 auto;
+    width: 895px;
+    margin-bottom: 4px;
+    margin-top: 3%;
+    background: #5D6D7E;
+    padding-bottom: 10px;
+}
+
+header h1,
+header h2 {
+	position: relative;
+	top: 18px;
+	text-align: center;
+}
+
+header h1 {
+	margin-bottom: 0;
+}
+
+header h2 {
+	padding-bottom: 10px;
+}
+
+
+#hero {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 1005px;
+	justify-content: center;
+}
+
+#portfolio {
+	width: 103%;
+	height: 100%;
+	background: #B2B2B2;
+	background-image: url('images/thinking3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#contact-about {
+	width: 49%;
+	margin-left: 16px;
+}
+
+#contact {
+	text-align: right;
+	height: 303px;
+	background: #4FACEE;
+}
+
+#about {
+	height: 302.5px;
+	background-image: url('images/ryport.jpg');
+	background-size: cover;
+	margin-top: 5px;
+}
+
+#contact-text {
+	color: white;
+	font-size: 5em;
+	position: relative;
+}
+
+#portfolio-text {
+	font-size: 5em;
+    position: relative;
+    top: 83px;
+    color: black;
+}
+
+#about-text {
+    position: relative;
+    top: 52px;
+    font-size: 5em;
+    color: black;
+    background-color: rgba(255,255,255, .8);
+    text-align: right;
+}
+
+
+
+/*---------------------ABOUT ME------------------------------*/
+
+#about-hero{
+	text-align: center;
+	color: #535353;
+	margin-top: 101px;
+    margin-bottom: 101px;
+}
+
+.about-title{
+	text-align: center;
+	color: #535353;
+	font-size: 3em;
+	font-family: cabin, helvetica;
+	margin-top: 8%;
+
+}
+
+#infograph {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+#infograph h2 {
+	font-size: 3em;
+}
+
+#infograph li {
+	margin-bottom: 12px;
+	width: 93%;
+}
+
+#film,
+#art,
+#design,
+#achievements {
+	width: 500px;
+	height: 310px;
+	display: inline-block;
+	margin: .1%;
+	color: white;
+}
+
+#film {
+	background: #4385B4;
+}
+
+#art {
+	background: #EE744F;
+}
+
+#art h2,
+#achievements h2 {
+	position: relative;
+	left: 2px;
+}
+
+#design {
+	background: #B2B2B2;
+	position: relative;
+}
+
+#achievements {
+	background: #4FACEE;
+}
+
+#digital-tools {
+	padding-bottom: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#digital-tools img {
+	width: 10%;
+	margin: 0 13px;
+
+}
+
+#html {
+	height: 128px;
+    width: 130px;
+}
+
+#css {
+	height: 127px;
+}
+
+/*-------------story------------------*/
+#line {
+	height: 1px;
+    width: 150px;
+    background-color: #B0B0B0;
+    margin: 4% auto 10%;
+}
+
+#story {
+	display: flex;
+	flex-direction: column;
+
+}
+
+#story div {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 10%;
+}
+
+#story li {
+	font-family: 'Amatic SC', helvetica;
+	margin-bottom: 3%;
+	font-weight: bold;
+    font-size: 2em;
+}
+
+#story-title {
+	text-align: center;
+	font-family: 'Amatic SC', helvetica;
+
+}
+
+#journey {
+	margin: 0 auto 55px;
+	display: block;
+    width: 10%;
+}
+
+
+#myspace {
+	width: 300px;
+}
+
+#time2 {
+    width: 20%;
+    margin: 0 auto 5%;
+}
+
+#wix-master { 
+	margin: 0 5% 15%;
+}
+
+#wix {
+	width: 300px;
+}
+
+#highfive {
+	width: 480px;
+}
+
+#yes-master ul {
+	margin-top: 9%;
+}
+
+#yes {
+	width: 500px;
+}
+
+#thinkful {
+	width: 450px;
+}
+
+#idea-master {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Amatic SC', helvetica;
+	font-size: 2em;
+}
+#idea{
+    width: 400px;
+    margin-left: 8%;
+   
+}
+
+#update {
+	width: 1000px;
+	font-family:'Amatic SC', helvetica;
+	font-size: 2em;
+	margin: 0 auto;
+
+}
+
+#update h2 {
+	font-family: 'Amatic SC', helvetica;
+	font-size: 2em;
+}
+
+#update-heading {
+	display: block;
+	font-family: 'Amatic SC', helvetica;
+	font-size: 3em;
+	text-align: center;
+}
+
+#update-glasses {
+	width: 235px;
+
+}
+
+#cats {
+	width: 400px;
+    position: relative;
+    bottom: 25px;
+}
+
+#story ul {
+	width: 50%;
+}
+
+
+
+
+/*---------------------CONTACT ME------------------------------*/
+#master-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 100px auto;
+}
+
+
+#master-box div {
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+	color: white;
+}
+
+#master-box h2 {
+	text-align: center;
+	margin-top: 30%;
+}
+
+#box-1 {
+	background: #FF6E6E;
+}
+
+#box-2 {
+	background: #4FACEE;
+}
+
+#box-3 {
+	background: #5678FF;
+}
+
+#box-4 {
+	background: #B458FF;
+}
+
+#box-5 {
+	background: #575757;
+}
+
+#box-6 {
+	background: #5CFFAC;
+}
+
+
+/*---------------------PORTFOLIO------------------------------*/
+#portfolio-all {
+	margin-top: 100px;
+	width: 99%;
+}
+
+.projects {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.projects img {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.projects h2 {
+	margin-left: 10%;
+    margin-bottom: 8px;
+    font-size: 3em;
+}
+
+.projects p {
+	margin: 2% 12% 5%;
+	font-family: raleway, helvetica;
+}
+
+.the-start {
+	font-size: 1.2em;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+#other-projects-heading {
+	text-align: center;
+	font-size: 3em;
+    margin: -4% 0 7%;;
+}
+
+#other-projects {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#other-projects div {
+	width: 300px;
+	height: 300px;
+	margin: 0 1% 8%;
+    display: inline-block;
+}
+
+#other-projects h2 {
+	text-align: center;
+	margin-top: -15px;
+	color: black;
+}
+
+#other-projects a {
+	margin-bottom: 5%;
+}
+
+
+#boneyard {
+	background-image: url('images/boneyard.jpg');
+	background-size: cover;
+	border: 1px solid black;
+}
+
+#donde {
+	background-image: url('images/donde.png');
+	background-size: cover;
+	border: 1px solid black;
+	background-position: 0 9%;
+}
+
+#pirate-bartender {
+	background-image: url('images/pirate.png');
+	background-size: cover;
+	border: 1px solid black;
+	background-position: 34% 0;
+}
+
+#shoppinglist {
+	background-image: url('images/shoppinglist.png');
+	background-size: cover;
+	border: 1px solid black;
+	background-position: 67% 0%;
+}
+
+#ryu {
+	background-image: url('images/ryu.png');
+	background-size: cover;
+	border: 1px solid black;
+}
+
+#youtube {
+	background-image: url('images/youtube.png');
+	background-size: cover;
+	border: 1px solid black;
+	background-position: 34% 0;
+}
+
+/*---------------------ILLUSTRATIONS------------------------------*/
+#illustrations {
+	display: block;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#illustrations-heading {
+	text-align: center;
+}
+
+#illustrations-subheading {
+	text-align: center;
+}
+#illustrations img {
+	width: 350px;
+	border: 1px solid black;
+	margin: 7%;
+}
+
+#dolphine,
+#whale {
+	position: relative;
+    bottom: 45px;
+}
+
+#drugs {
+	position: relative;
+    bottom: 12px;
+}
+
+#fuck {
+	position: relative;
+	bottom: 30px;
+}
+
+#catfish { 
+	position: relative;
+	bottom: 36px;
+}
+
+
+
+@media (max-width: 750px) {
+	body {
+		max-width: 750px;
+	}
+
+	#hero {
+		flex-direction: column;
+		text-align: left;
+	}
+
+	#portfolio {
+		width: 74%;
+	}
+
+	#portfolio-text {
+		top: 26px;
+	}
+}
+
+
+
+
+
