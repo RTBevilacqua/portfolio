@@ -24,7 +24,7 @@ ul {
 nav {
 	text-align: center;
 	font-size: 2em;
-	font-family: 'Quicksand', helvetica;
+	font-family: 'Roboto+Condensed', helvetica;
 	margin: 20px 75px;
     display: flex;
 	justify-content: space-between;
@@ -40,14 +40,14 @@ h2 {
 }
 
 h1 {
-	font-family: 'Quicksand', helvetica;
+	font-family: 'Roboto+Condensed', helvetica;
 	font-size: 5em;
 	letter-spacing: 1px;
 }
 
 h2,
 li {
-	font-family: 'Quicksand', helvetica;
+	font-family: 'Roboto+Condensed', helvetica;
 }
 
 .underline {
@@ -117,17 +117,17 @@ header h2 {
 
 #contact-text {
 	position: relative;
-	top: 19%;
+	top: 31%;
 }
 
 #portfolio-text {
     position: relative;
-    top: 7%;
+    top: 12%;
 }
 
 #about-text {
 	position: relative;
-	top: 30%;
+	top: 38%;
 }
 
 
@@ -145,7 +145,7 @@ header h2 {
 	text-align: center;
 	color: #535353;
 	font-size: 3em;
-	font-family: 'Quicksand', helvetica;
+	font-family: 'Roboto+Condensed', helvetica;
 	margin-top: 8%;
 
 }
@@ -584,28 +584,51 @@ header h2 {
 	bottom: 36px;
 }
 
+/******************************MEDIA QUERY************************/
 
-
-@media (max-width: 750px) {
-	body {
-		max-width: 750px;
-	}
+@media only screen and (max-device-width: 760px) {
+	
 
 	nav {
-		font-size: 1em;
+	    font-size: 4em;
+	    margin-top: 50px;
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	nav a {
+		margin-bottom: 37px;
 	}
 
 	header {
-		width: 100%;
+		    width: 100%;
+		    font-size: 2em;
+		    margin-top: 0;
 	}
 
-	h1 {
-		font-size: 3em;
-
+	header h2 {
+		font-size: 2em;
 	}
+
+
 
 	#hero {
 		flex-direction: column;
+		font-size: 4em;
+	}
+
+	#portfolio-text {
+   		top: 21%;
+	}
+
+	#about-text {
+	    top: 36%;
+	}
+
+
+
+	#contact-text {
+	    top: 35%;
 	}
 
 	#portfolio,
@@ -614,12 +637,11 @@ header h2 {
 		width: 100%;
 	}
 
-	#portfolio-text {
-		top: 26px;
-	}
 
 
 /******************************PORTFOLIO************************/
+
+
 
 .projects img {
 	width: 100%;
@@ -628,6 +650,7 @@ header h2 {
 .projects h2 {
 	text-align: center;
 	margin-left: 0;
+	font-size: 5em;
 }
 
 #other-projects {
@@ -636,25 +659,45 @@ header h2 {
 
 #other-projects div {
 	display: block;
-	margin: 0 auto 10%
-
+	margin: 0 auto 10%;
+	width: 500px;
+    height: 500px;
 }
 
 #other-projects h2 {
-	margin-top: -30px;
+	margin-top: -48px;
+    font-size: 3em;
 }
 
 /******************************ABOUT ME************************/
+#about-hero h1 {
+	font-size: 7em;
+}
+
+.about-title {
+	font-size: 5em;
+}
+
+#infograph h2 {
+	font-size: 6em;
+	margin-left: 3.5%;
+}
+
+#infograph li {
+	font-size: 3em;
+	margin-bottom: 52px;
+}
 
 #film, 
 #art, 
 #design, 
 #achievements {
 	width: 100%;
+	height: 980px;
 }
 
 #digital-tools img {
-	width: 70px;
+	width: 200px;
 	margin-bottom: 10px;
 }
 
@@ -664,11 +707,11 @@ header h2 {
 }
 
 #story-title {
-	font-size: 5em;
+	font-size: 8em;
 }
 
 #journey {
-	width: 28%;
+	width: 40%;
 }
 
 #story div {
@@ -679,9 +722,42 @@ header h2 {
 	width: 90%;
 }
 
+#story li {
+	font-size: 5em;
+}
+
+#myspace,
+#wix,
+#yes,
+#idea,
+#update,
+#update-glasses {
+	width: 75%;
+}
+
+#highfive,
+#yes,
+#thinkful,
+#cats {
+	width: 100%
+}
+
+#idea-master h3,
+#glasses-master h3,
+#cats-master h3 {
+	font-size: 3em;
+	text-align: center;
+	margin-left: 0 3%;
+}
+
 #update {
 	width: 100%;
 }
+
+#update-heading {
+	font-size: 9em;
+}
+
 
 #time2 {
 	opacity: 0;
@@ -690,7 +766,7 @@ header h2 {
 
 #time3 {
 	opacity: 1;
-	width: 55%;
+	width: 78%;
     margin: -17% auto 13%;
 }
 
@@ -718,6 +794,21 @@ header h2 {
 }
 
 
+
+/******************************ABOUT ME************************/
+#master-box {
+	font-size: 3em;
+}
+
+
+#master-box div {
+	width: 390px;
+    height: 390px;
+}
+
+#master-box h2 {
+	margin-top: 39%;
+}
 
 }
 
